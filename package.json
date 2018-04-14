@@ -1,0 +1,71 @@
+{
+  "name": "loopback-aor-boilerplate",
+  "description": "Boilerplate of Loopback and admin-on-rest",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node .",
+    "posttest": "npm run lint && nsp check"
+  },
+  "dependencies": {
+    "admin-on-rest": "^1.4.0",
+    "aor-loopback": "^1.3.2",
+    "body-parser": "^1.17.2",
+    "compression": "^1.7.0",
+    "connect-ensure-login": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "^2.0.0-beta.2",
+    "cors": "^2.7.1",
+    "d3-contour": "^1.1.1",
+    "debug": "^2.2.0",
+    "depd": "^1.1.1",
+    "express-session": "^1.15.4",
+    "helmet": "^3.8.1",
+    "lodash": "^4.17.4",
+    "loopback": "^3.9.0",
+    "loopback-boot": "^2.26.0",
+    "loopback-component-explorer": "^4.2.0",
+    "loopback-component-oauth2": "^3.0.0",
+    "loopback-component-passport": "^3.4.0",
+    "loopback-connector-mongodb": "^3.2.1",
+    "loopback-ds-timestamp-mixin": "^3.4.1",
+    "loopback-swagger": "^4.0.3",
+    "loopback3-xtotalcount": "^0.1.2",
+    "oauth": "^0.9.15",
+    "passport": "^0.3.2",
+    "passport-oauth2": "^1.4.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "serve-favicon": "^2.0.1",
+    "strong-error-handler": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-polyfill": "6.23.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-1": "6.24.1",
+    "css-loader": "^0.28.4",
+    "eslint": "^4.3.0",
+    "eslint-config-loopback": "8.0.0",
+    "eslint-plugin-lodash": "2.4.4",
+    "node-sass": "^4.5.3",
+    "nsp": "^2.7.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.4.1",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-hot-middleware": "2.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kimkha/loopback-aor-boilerplate.git"
+  },
+  "license": "MIT"
+}

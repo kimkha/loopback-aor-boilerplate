@@ -1,0 +1,36 @@
+export default {
+  'metadata': 'Metadata',
+  'general': 'General',
+  'latitude': 'Latitude',
+  'longitude': 'Longitude',
+  'mainmap': 'Map',
+  'geographic':"Geographics",
+  'material':"Materials",
+  'report':"Reports",
+  'geocountries':"Geo Countries",
+  'geoprovinces':"Geo Provinces",
+  'geodistricts':"Geo Districts",
+  'geowards':"Geo Wards",
+  'geoquaters':"Geo Quaters",
+  'waterloss': "Waterloss",
+  'quantity': "Quantity",
+  'permission': "Permission",
+  'customerusers': "Customer Users",
+  'networks': 'Networks',
+  'allnetwork': 'All Network',
+  'pressureUnit': "Bar",
+  'flowRateUnit': "m3/h",
+  'totalFlowUnit': "m3",
+  'map':{
+    'mapRenderMenu': {
+      'addNode': 'Add Node',
+    },
+    'mapSearch': {
+      'searchLocation': "Search Location",
+    }
+  },
+  'rolemappings': "Role Mappings",
+  'language':"Language",
+  'configuration':"Configuration",
+  "updatedDate": "Updated Date",
+}

@@ -1,0 +1,36 @@
+{
+  "name": "BaseModel",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "mixins": {
+    "TimeStamp": {
+      "createdAt" : "createdDate",
+      "updatedAt" : "updatedDate",
+      "required": false,
+      "validateUpsert": true,
+      "silenceWarnings": false
+    },
+    "Operation": true,
+    "Ext": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "creator": {
+      "type": "belongsTo",
+      "model": "User",
+      "foreignKey": ""
+    },
+    "updater": {
+      "type": "belongsTo",
+      "model": "User",
+      "foreignKey": ""
+    }
+  },
+  "acls": [
+  ],
+  "methods": {}
+}
