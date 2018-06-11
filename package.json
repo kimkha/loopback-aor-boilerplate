@@ -9,7 +9,10 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
-    "posttest": "npm run lint && nsp check"
+    "posttest": "npm run lint && nsp check",
+    "start_prod": "NODE_ENV=production node .",
+    "deploy": "NODE_ENV=production webpack -p --config webpack.config.production.js --progress",
+    "clean": "rm -rf .build/dist"
   },
   "dependencies": {
     "admin-on-rest": "^1.4.0",
